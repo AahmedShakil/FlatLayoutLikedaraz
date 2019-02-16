@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="8"
+    android:orientation="vertical"
+    android:background="#E0E0E0"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:src="@mipmap/mix"
+                android:padding="40dp"
+                android:layout_marginTop="70dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitchen Aid Professional 5 Qt. Mixer KV25G0X"
+                android:layout_marginLeft="22dp"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                />
+         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="$249.99"
+                        android:textColor="#000"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="2dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="$449.99"
+                        android:textSize="20dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="#757575"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="temp price cut"
+                        android:textColor="#CC0033"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="2dp"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                >
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:isIndicator="true"
+                    android:rating="4.0"
+
+                    android:stepSize="4"
+                    android:maxWidth="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#ffffff"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/cart"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add to cart"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:text="ship free"
+                android:textColor="#CC0033"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:text="not sold in store"
+                android:textSize="10dp"
+                android:textColor="#9E9E9E"
+                android:drawableTop="@mipmap/bar"
+                android:paddingTop="20dp"
+                android:background="#ffffff"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="add to list"
+                android:textSize="12dp"
+                android:textColor="#000000"
+                android:drawableTop="@mipmap/list"
+                android:paddingTop="20dp"
+                android:textAllCaps="false"
+                android:background="#ffffff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
